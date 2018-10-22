@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<p> Benvenuto sulla mia seconda pagina </p>
+	<h4>Scegli il link a cui connetterti</h4>
+		<ul>
+			
+			<li><a> https://www.amazon.it </a> </li>
+			<li><a> https://www.google.it </a> </li>
+		
+		</ul>
+		
+</body>
+</html>

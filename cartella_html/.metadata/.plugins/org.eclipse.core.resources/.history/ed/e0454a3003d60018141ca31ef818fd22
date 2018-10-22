@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+
+li{
+	display: inline;
+	cursor:pointer;
+}
+
+.flyout{
+	display: none;
+}
+li:hover .flyout {
+	display: block;
+}
+

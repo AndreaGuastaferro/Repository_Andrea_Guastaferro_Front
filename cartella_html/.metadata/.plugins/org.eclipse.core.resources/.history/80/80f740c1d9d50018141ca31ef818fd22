@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<p> Benvenuto sulla mia seconda pagina </p>
+	<h4>Scegli il link a cui connetterti</h4>
+		<ul>
+			
+			<li><a href= "https://www.amazon.it"> Link ad amazon <img src=""> </a> </li>
+				<ol>
+					<li><a href= " https://www.amazon.it/b/ref=nav__fashion_man?ie=UTF8&node=5515769031"></a>Abiti</li>
+					<li><a href= " https://www.amazon.it/telefonia-mobile/b/ref=sd_allcat_tele?ie=UTF8&node=435507031"></</a>Telefoni</li>
+				</ol>
+			<li><a href="https://www.google.it"> Link a google <img src=""></a> </li>
+		
+		
+		
+		
+		
+		
+				
+<!--  			<h4>Scegli un link alternativo tra i seguenti</h4>
+		
+			<ol>
+				<li> <a href="https://www.fantagazzetta.com"> Link a fantagazzetta </a></li>
+			
+				<li> <a href="http://www.irpinianews.it"> Link a irpinianews </a></li>
+		
+			</ol>
+		
+		</ul> -->
+		
+	
+		
+</body>
+</html>

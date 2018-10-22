@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<p> Benvenuto sulla mia seconda pagina </p>
+	<h4>Scegli il link a cui connetterti</h4>
+		<ul>
+			
+			<li><a href= "https://www.amazon.it"> Link ad amazon <img src=""> </a> </li>
+				<ol>
+					<li><a href= " https://www.amazon.it/b/ref=nav__fashion_man?ie=UTF8&node=5515769031"></a>Abiti</li>
+						<ul>
+							<li> <a href="https://www.amazon.it/s/ref=s9_acss_bw_cg_ITMFMay2_3c1_w?__mk_it_IT=%C5M%C5Z%D5%D1&rh=i%3Aapparel%2Cn%3A2844433031%2Cn%3A%212844438031%2Cn%3A%212844440031%2Cn%3A15437070031%2Cp_76%3A490210031%2Cn%3A2892862031%2Cn%3A2892945031&bbn=15437070031&sort=date-desc-rank&ie=UTF8&pf_rd_m=A2VX19DFO3KCLO&pf_rd_s=merchandised-search-5&pf_rd_r=47Q5SCQ3NC4T83X6EN1V&pf_rd_t=101&pf_rd_p=2b56b692-4bdb-4382-b36f-c06c7c0ce0d7&pf_rd_i=5515769031"></</a>Jeans</li>
+							<li> <a href=" https://www.amazon.it/s/ref=s9_acss_bw_cg_ITMFMay2_3b1_w?__mk_it_IT=%C5M%C5Z%D5%D1&rh=i%3Ashoes%2Cn%3A524006031%2Cn%3A%21696352031%2Cn%3A%21696595031%2Cn%3A15437073031%2Cp_76%3A490210031%2Cn%3A700578031%2Cn%3A700703031%2Cn%3A700751031&bbn=15437073031&sort=date-desc-rank&ie=UTF8&pf_rd_m=A2VX19DFO3KCLO&pf_rd_s=merchandised-search-5&pf_rd_r=47Q5SCQ3NC4T83X6EN1V&pf_rd_t=101&pf_rd_p=2b56b692-4bdb-4382-b36f-c06c7c0ce0d7&pf_rd_i=5515769031">Stivali</a></li> 
+						</ul>
+					<li><a href= " https://www.amazon.it/telefonia-mobile/b/ref=sd_allcat_tele?ie=UTF8&node=435507031"></</a>Telefoni</li>
+				</ol>
+			
+		
+		
+		
+		
+		
+		
+				
+<!--  			
+
+	<li><a href="https://www.google.it"> Link a google <img src=""></a> </li>
+
+		<h4>Scegli un link alternativo tra i seguenti</h4>
+		
+			<ol>
+				<li> <a href="https://www.fantagazzetta.com"> Link a fantagazzetta </a></li>
+			
+				<li> <a href="http://www.irpinianews.it"> Link a irpinianews </a></li>
+		
+			</ol>
+		
+		</ul> -->
+		
+	
+		
+</body>
+</html>
