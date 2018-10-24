@@ -12,7 +12,7 @@ header .nomeProgetto{
   padding: 20px;
 }
 
-section .divHero {
+ .divHero {
   background-color:	#add8e6;
   height: 150px;
   padding: 50px;
@@ -28,25 +28,36 @@ section .divHero {
   height:50px;
 }
 
- .Contenuto{
- padding: 50px;
+.section {
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .Contenuto{
-  border: dotted;
-  display: inline-block;
-  padding:50px;
-  vertical-align: top;
+width: 27%;
+display: inline-block;
+padding: 25px;
+vertical-align: top;
+min-width: 300px;
 }
 
 .Immagine3{
-  width:220px;
+  width:100%;
   height:260px;
 }
 
 .Immagine7{
   width:50px;
   height:20px;
+}
+
+.like-span {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #ffffff;
+  user-select: none;
 }
 
 section  .divFoot{
@@ -65,19 +76,10 @@ section  .divFoot{
   vertical-align: middle;
   position:fixed;
   width: 100%;
+  padding: 13px;
 }
 
 #cookie{
   color:blue;
   text-decoration: underline;
-}
-
-
-.like-span {
-  background-color: rgb(255, 255, 255);
-  width: 70px;
-  height:60px;
-  border-radius: 10px;
-  padding: 10px;
-  border: 1px solid black;
 }
