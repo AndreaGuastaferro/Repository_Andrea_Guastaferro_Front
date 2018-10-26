@@ -1,13 +1,29 @@
-var c=document.getElementById('cookie');
+const $ = require('jquery');
 
-function nascondi() {
-  document.getElementById('divCookie').style.display='none';
-};
-
-c.addEventListener("click",function(){
-  nascondi();
+$(document).ready(function(){
+$.ajax({
+  url: "ajaxFile.json",
+  method: "GET",
+  success: function(result) {
+  for(var i=0; i< result.length; i++){              //con la doAjax in result andrà un oggetto composto dalle stringhe in ajaxFile.json
+      $('#call').append(result[i].text);          //invce di scrivere in html, passerò l'oggetto nei tag tramite questa funzione che me li trasferirà direttamente nella pagina html
+  }
+  },
+  error: function() {
+    console.log('error');
+  }
+});
 });
 
+$('#cookie').on('click', () => {
+  $('#divCookie').hide();
+});
+
+$('.btn , .btn-default').on('click', event => {
+    $(event.currentTarget).toggleClass("btn-success");
+});
+
+/*
 function changeColor(x1){
   if (document.getElementById(x1).style.backgroundColor === 'rgb(0, 128, 0)'){
     document.getElementById(x1).style.backgroundColor=  'rgb(255, 255, 255)';
@@ -16,7 +32,6 @@ function changeColor(x1){
        {
          document.getElementById(x1).style.backgroundColor='rgb(0, 128, 0)'
          console.log("Il pulsante è verde");
-       ;
      }
    };
 
@@ -40,3 +55,4 @@ function changeColor(x1){
    x1.addEventListener("click",function(){
      changeColor('button4');
    });
+   */
