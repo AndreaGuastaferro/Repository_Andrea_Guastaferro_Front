@@ -1,3 +1,6 @@
+@margin: 3%;
+@width: 100%;
+
 body{
   margin:0;
 }
@@ -9,29 +12,60 @@ header{
 header .nomeProgetto{
   color:white;
   margin:0;
-  padding: 20px;
+  padding: 10px;
+  padding-left: 2px;
+  margin-left:@margin;
+  margin-right: @margin;
+}
+
+.articolo{
+  margin-bottom: 30px;
 }
 
 .jumbotron {
   background-color:	#e4edf6 !important;
+  padding-left:@margin;
+  padding-right: @margin;
+  /*padding:60px;*/
+  p{
+    font-size: 19px;
+    margin-bottom: -10px;
+  }
 }
+
+.btn-default{
+  position: absolute;
+  bottom:-38px;
+}
+
 
  .heroObject {
   padding: 2px;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left:@margin;
+  margin-right:@margin;
 }
 
 .btn-primary {
   widht: 60px;
-  height:40px;
-  margin-top:8px;
-  padding:30px;
+  margin-bottom: -10px;
+  height:35px;
+/*  margin-top:8px;*/
+  /*padding:30px*/
 }
 
+
+octicon .octicon-mark-github{
+  width: 23px;
+  height: 27px;
+  background-color: #337AB7;
+  margin-right: -2px;
+  margin-left: -2px;
+}
+
+
 .section {
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left:@margin;
+  margin-right:@margin;
 }
 
 .container{
@@ -43,8 +77,13 @@ min-width: 300px;
 }
 
 .Immagine3{
-  width:100%;
+  width:@width;
   height:260px;
+  margin-bottom: 10px;
+}
+
+.underImage{
+  margin-top: 10px;
 }
 
 .tech-span{
@@ -70,10 +109,13 @@ section  .divFoot{
   color:#000000;
   background-color: white;
   font-size: 80%;
-  margin-left: 3%;
+  margin-left: @margin;
   margin top:120px;
   margin-bottom: 60px;
+  margin-right: @margin;
+  padding-right: @margin;
 }
+
 
 #divCookie{
   background-color:#2f4f4f;
@@ -82,9 +124,15 @@ section  .divFoot{
   bottom:0;
   vertical-align: middle;
   position:fixed;
-  width: 100%;
+  width: @width;
   padding: 13px;
   z-index: 90;
+  padding-left: 2px;
+}
+
+.span_cookie{
+  margin-left: @margin;
+  margin-right: @margin;
 }
 
 #cookie{

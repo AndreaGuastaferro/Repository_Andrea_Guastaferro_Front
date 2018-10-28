@@ -40,7 +40,7 @@ module.exports = function(grunt) {
   watch: {
     scripts: {
       files: ['src/js/application.js', 'src/css/style.less' ],
-      tasks: ['less','browserify'],
+      tasks: ['browserify', 'less'],
     }
   },
   less: {
@@ -61,6 +61,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-serve');
   grunt.loadNpmTasks('grunt-browserify');
   grunt.task.registerTask('develop', ['watch']);
-  grunt.task.registerTask('build', ['less','cssmin','browserify','babel','uglify','serve']);
+  grunt.task.registerTask('build', ['cssmin','babel','uglify','serve']);
 
 };

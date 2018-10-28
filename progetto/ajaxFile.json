@@ -1,15 +1,48 @@
 [{
-    "text": "ajax 1"
-  },
-
-  {
-    "text": "ajax 2"
-  },
-
-  {
-    "text": "ajax3 3"
-  },
-
-  {
-    "text": "ajax 4"
-  }]
+    "text":"Article Title 1"
+},
+{
+    "text":"https://images.wallpaperscraft.com/image/iphone_iphone_6_apple_101170_1920x1080.jpg"
+},
+{
+    "text":"tech"
+},
+{
+   "text":"Lorem ipsum dolor sit amet, usu reque dictas tractatos ex, ut ius facete philosophia. Sit ex mazim urbanitas. Sit ex dico dicit assueverit, in molestiae suscipiantur sea. Esse voluptua tacimates vel cu"
+},
+{
+    "text":"Article Title 2"
+},
+{
+    "text":"https://focustech.it/wp-content/uploads/2015/06/iPhone-6S.jpg"
+},
+{
+    "text":"tech"
+},
+{
+   "text":"Lorem ipsum dolor sit amet, usu reque dictas tractatos ex, ut ius facete philosophia. Sit ex mazim urbanitas. Sit ex dico dicit assueverit, in molestiae suscipiantur sea. Esse voluptua tacimates vel cu"
+},
+{
+    "text":"Article Title 3"
+},
+{
+    "text":"https://images.wallpaperscraft.com/image/apple_ipad_air_2_tablet_104549_1920x1080.jpg"
+},
+{
+    "text":"tech"
+},
+{
+   "text":"Lorem ipsum dolor sit amet, usu reque dictas tractatos ex, ut ius facete philosophia. Sit ex mazim urbanitas. Sit ex dico dicit assueverit, in molestiae suscipiantur sea. Esse voluptua tacimates vel cu"
+},
+{
+    "text":"Article Title 4"
+},
+{
+    "text":"https://images.wallpaperscraft.com/image/ipad_apple_iphone_ipod_android_94628_1920x1080.jpg"
+},
+{
+    "text":"tech"
+},
+{
+   "text":"Lorem ipsum dolor sit amet, usu reque dictas tractatos ex, ut ius facete philosophia. Sit ex mazim urbanitas. Sit ex dico dicit assueverit, in molestiae suscipiantur sea. Esse voluptua tacimates vel cu"
+}]
