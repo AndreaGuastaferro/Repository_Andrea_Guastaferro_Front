@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bg color="blue">
+	<p>Benevenuto sulla mia pagina</p>
+		<h3>Accedi a questo link per avere l'elenco completo dei prodotti</h3>
+		<li><a href= "https://www.amazon.it"> Link ad amazon <img src="C:\Users\soprasteria\Desktop\amazon.png"> </a> </li>
+		
+		
+		
+		
+		
+		
+</body>
+</html>

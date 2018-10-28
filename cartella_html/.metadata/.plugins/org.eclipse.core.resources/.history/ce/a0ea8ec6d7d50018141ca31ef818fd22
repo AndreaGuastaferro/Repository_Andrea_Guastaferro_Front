@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<p> Benvenuto sulla mia seconda pagina </p>
+	<h4>Scegli il link a cui connetterti</h4>
+		<ul>
+			
+			<li><a href= "https://www.amazon.it"> Link ad amazon <img src="https://www.google.it/search?q=immagine+amazon&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiHlenA1JneAhUDyxoKHQUlBr0Q_AUIECgD&biw=1366&bih=657#imgrc=0dT1ANcaNd_HEM:"> </a> </li>
+			<li><a href="https://www.google.it"> Link a google <img src="https://www.google.it/search?q=immagine+google&tbm=isch&source=lnms&sa=X&ved=0ahUKEwj78NXU1JneAhUPx4UKHRY1AKUQ_AUICigB&biw=1366&bih=657&dpr=1#imgrc=6a2I0NEtBC21fM:"></a> </li>
+		
+		</ul>
+		
+	<h4>Scegli un link alternativo tra i seguenti</h4>
+		
+		<ol>
+			<li> <a href="https://www.fantagazzetta.com"> Link a fantagazzetta </a></li>
+			
+			<li> <a href="http://www.irpinianews.it"> Link a irpinianews </a></li>
+		
+		</ol>
+		
+</body>
+</html>

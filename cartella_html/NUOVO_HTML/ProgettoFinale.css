@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+body{
+	margin: 0;
+}
+
+header {
+	background-color: #004040;
+  	height:5%;
+}
+
+#head{
+color: white;
+}
+
+.Projecthero{
+	background-color: #c0c0c0;
+	margin: 0;
+}
+
+.H1, .TextHero{
+	margin: 0;
+}

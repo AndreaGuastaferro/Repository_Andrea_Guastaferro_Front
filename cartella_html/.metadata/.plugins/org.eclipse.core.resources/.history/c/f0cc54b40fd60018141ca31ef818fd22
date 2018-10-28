@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="ProgettoFinale.css">
+</head>
+<body>
+	<header >
+	<p id="head"> Primo Progetto</p>
+	</header>
+	 
+	 <div class="Projecthero">
+	 	<div class="TextHero">
+	 		<h1>Hello Mannaggia Cristo</h1>
+	 	
+	 	
+	 	
+	 	</div>
+	 </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+
+div.flyout {
+	display: flyout;
+	display: -webkit-flyout;
+}	
+div.flyout {
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	padding: 10px;
+}
+div.flyout:hover.hov {
+	display: flyout;
+	display: -webkit-flyout;
+}
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="ProgettoFinale.css">
+</head>
+<body>
+	<header >
+	<p id="head"> Primo Progetto</p>
+	</header>
+	 
+	 <div class="Projecthero">
+	 	<div class="TextHero">
+	 		<h1>Hello, World!</h1>
+	 		<article class ="articolo">
+	 		Lorem ipsum dolor sit amet, summo constituam ne cum. 
+	 		Stet vocent adipiscing vim eu, his qualisque imperdiet id, vis suas eirmod voluptua et. 
+	 		Et putant epicurei nec, assum eirmod efficiantur in eum, menandri expetendis vim cu. Iriure adipisci eam at.
+	 		</article>
+	 		<span class="Span_uno"> <a href="https://it-it.facebook.com"><img alt="Not Found"  src="img/progetto finale_imm1.png"></a></span>
+	 		<span class="Span_due"> <a href="http://www.irpinianews.it"><img alt="Not Found"  src="img/progetto finale_imm2.png"></a></span>
+	 	</div>
+	 </div>
+</body>
+</html>

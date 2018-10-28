@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1> Benvenuto sulla mia prima pagina</h1>
+	<h2> Scegli il prodotto da acquistare</h2>
+	<ol>
+		<li> Primo prodotto</li>
+		<li> Secondo prodotto </li>
+		<li> Terzo prodotto </li> 
+	</ol>
+	
+	<table>
+		<tr>
+		<td>colonna1</td>
+		<td>colonna2</td>
+		<td>colonna3</td>
+	</table>
+</body>
+</html>
