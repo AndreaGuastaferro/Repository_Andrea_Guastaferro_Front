@@ -1,4 +1,5 @@
 const $ = require('jquery');
+const Mustache = require('Mustache');
 
 /*$(document).ready(function(){
 $.ajax({
@@ -14,33 +15,19 @@ $.ajax({
   }
 });
 });*/
+
 $.ajax({
-url: 'ajaxFile.json',
+url: '/articoli',
 method: "GET",
+dataType:'json',
 success: function(result){
- $('#article1').append("<h3>" + result[0].text + "</h3>");
-        $('#article1').append("<img class='Immagine3' src=" + result[1].text + "><br>");
-        $('#article1').append("<span class="+"'label label-pill label-primary'"+">" + result[2].text + "</span>");
-        $('#article1').append("<p>" + result[3].text + "</p>");
-        /*$('#art1').append("<span class="+"'like btn btn-light'>"+ result[4].text +"</span>");*/
-
- $('#article2').append("<h3>" + result[4].text + "</h3>");
-        $('#article2').append("<img class='Immagine3' src=" + result[5].text + "><br>");
-        $('#article2').append("<span class="+"'label label-pill label-primary'"+">" + result[6].text + "</span>");
-        $('#article2').append("<p>" + result[7].text + "</p>");
-        /*$('#art2').append("<span class="+"'like btn btn-light'>"+ result[9].text +"</span>");*/
-
-        $('#article3').append("<h3>" + result[8].text + "</h3>");
-        $('#article3').append("<img class='Immagine3' src=" + result[9].text + "><br>");
-        $('#article3').append("<span class="+"'label label-pill label-primary'"+">" + result[10].text + "</span>");
-        $('#article3').append("<p>" + result[11].text + "</p>");
-        /*$('#art3').append("<span class="+"'like btn btn-light'>"+ result[14].text +"</span>");*/
-
-        $('#article4').append("<h3>" + result[12].text + "</h3>");
-        $('#article4').append("<img class='Immagine3' src=" + result[13].text + "><br>");
-        $('#article4').append("<span class="+"'label label-pill label-primary'"+">" + result[14].text + "</span>");
-        $('#article4').append("<p>" + result[15].text + "</p>");
-        /*$('#art4').append("<span class="+"'like btn btn-light'>"+ result[19].text +"</span>");*/
+  console.log(result);
+  var template = $('#template').html();
+        console.log(template);
+        var rendered = Mustache.render(template, result);
+        console.log('il renderizzato:');
+          console.log(rendered);
+        $('#articolo').html(rendered);
 },
 error: function(result){
  console.log('error');
@@ -48,13 +35,19 @@ error: function(result){
 });
 
 
-$('#cookie').on('click', () => {
-  $('#divCookie').hide();
+$( document ).ajaxComplete(function() {
+    $('#cookie').on('click', () => {
+      $('#divCookie').hide();
+  })
 });
 
-$('.btn , .btn-default').on('click', event => {
-    $(event.currentTarget).toggleClass("btn-success");
+
+$( document ).ajaxComplete(function() {
+  $('.btn , .btn-default').on('click', event => {
+      $(event.currentTarget).toggleClass("btn-success");
+  })
 });
+
 
 /*
 function changeColor(x1){

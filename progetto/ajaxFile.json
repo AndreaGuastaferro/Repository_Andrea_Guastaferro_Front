@@ -1,48 +1,30 @@
-[{
-    "text":"Article Title 1"
-},
 {
-    "text":"https://images.wallpaperscraft.com/image/iphone_iphone_6_apple_101170_1920x1080.jpg"
-},
-{
-    "text":"tech"
-},
-{
-   "text":"Lorem ipsum dolor sit amet, usu reque dictas tractatos ex, ut ius facete philosophia. Sit ex mazim urbanitas. Sit ex dico dicit assueverit, in molestiae suscipiantur sea. Esse voluptua tacimates vel cu"
-},
-{
-    "text":"Article Title 2"
-},
-{
-    "text":"https://focustech.it/wp-content/uploads/2015/06/iPhone-6S.jpg"
-},
-{
-    "text":"tech"
-},
-{
-   "text":"Lorem ipsum dolor sit amet, usu reque dictas tractatos ex, ut ius facete philosophia. Sit ex mazim urbanitas. Sit ex dico dicit assueverit, in molestiae suscipiantur sea. Esse voluptua tacimates vel cu"
-},
-{
-    "text":"Article Title 3"
-},
-{
-    "text":"https://images.wallpaperscraft.com/image/apple_ipad_air_2_tablet_104549_1920x1080.jpg"
-},
-{
-    "text":"tech"
-},
-{
-   "text":"Lorem ipsum dolor sit amet, usu reque dictas tractatos ex, ut ius facete philosophia. Sit ex mazim urbanitas. Sit ex dico dicit assueverit, in molestiae suscipiantur sea. Esse voluptua tacimates vel cu"
-},
-{
-    "text":"Article Title 4"
-},
-{
-    "text":"https://images.wallpaperscraft.com/image/ipad_apple_iphone_ipod_android_94628_1920x1080.jpg"
-},
-{
-    "text":"tech"
-},
-{
-   "text":"Lorem ipsum dolor sit amet, usu reque dictas tractatos ex, ut ius facete philosophia. Sit ex mazim urbanitas. Sit ex dico dicit assueverit, in molestiae suscipiantur sea. Esse voluptua tacimates vel cu"
-}]
+  "articoli": [
+  {"title":"Articolo Title 1",
+    "image": "https://www.lse.ac.uk/management/assets/images/research/technology-600x600.png",
+    "text": "Donec id elit non mi porta gravida at eget metus. Lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum.",
+    "tech": "tech",
+    "like": false
+  },
+
+  {"title":"Article Title 2",
+     "image": "http://mpatech.eu/home/wp-content/uploads/2017/06/wirelesscharge-600x600.jpg",
+      "text": "Alter id elit non mi porta gravida at eget metus. Lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum.",
+      "tech": "tech",
+      "like": true
+    },
+
+  {"title":"Article Title 3",
+    "image": "https://www.tnet.it/wp-content/uploads/2018/07/cloud-server-600x600.jpg",
+    "text": "Micon id elit non mi porta gravida at eget metus. Lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum.",
+    "tech": "tech",
+    "like": false
+  },
+
+  {"title":"Article Title 4",
+    "image": "https://www.tnet.it/wp-content/uploads/2018/08/cloudbag-600x600.jpg",
+    "text": "Siton id elit non mi porta gravida at eget metus. Lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum.",
+    "tech": "tech",
+    "like": false
+  }]
+}
