@@ -1,5 +1,8 @@
-const $ = require('jquery');
-const Mustache = require('Mustache');
+var $ = window.jQuery=require('jquery');
+const Mustache =require ('mustache');
+var bootstrap=require ('bootstrap');
+
+//const slick= require ('slick-carousel');
 
 /*$(document).ready(function(){
 $.ajax({
@@ -16,69 +19,71 @@ $.ajax({
 });
 });*/
 
-$.ajax({
-url: '/articoli',
-method: "GET",
-dataType:'json',
-success: function(result){
-  console.log(result);
-  var template = $('#template').html();
-        console.log(template);
-        var rendered = Mustache.render(template, result);
-        console.log('il renderizzato:');
-          console.log(rendered);
-        $('#articolo').html(rendered);
-},
-error: function(result){
- console.log('error');
-}
+$( document ).ready(function() {
+
+
+  $('#hereCookie').on('click', () => {
+    $('.cookie').fadeOut();
+  });
+  doAjax();
+
+
 });
 
+
+  function doAjax(){
+    $.ajax({
+      url: '/articoli',
+      method: 'GET',
+      dataType: "json",
+      success: function(result) {
+        //  $.each(result, function(key, value) {
+        var template = $('#template').html();
+        //console.log(template);
+        var rendered = Mustache.render(template, result);
+        //console.log('il renderizzato:');
+        //    console.log(rendered);
+        $('#articolo').html(rendered);
+      },
+      error: function(error){
+        console.log("Errore insuccesso doAjax:");
+        console.log(error);
+      },
+      complete: function() {
+      $('article .btn, .btn-default').on('click', function() {
+
+          setLike($(this));
+        });
+      }
+    });
+  };
+
+
+  function setLike(self){
+    //console.log('Log prima della chiamata:' + self.attr('data-like'));
+    $.ajax({
+      url: '/articolo',
+      method: 'POST',
+      contentType: 'application/json',
+      data: JSON.stringify({ id: self.attr('id'), like: self.attr('data-like') }),
+      success: function(result){
+      //console.log('Log dopo della chiamata:' + result);
+      if(result === 'ok'){
+        self.toggleClass("btn-success")
+        self.attr('data-like', result);
+      }
+        //  console.log('valore di data-like:' + self.attr('data-like'));
+
+      },
+      error: function(error){
+        console.log("Errore insuccesso setLike:");
+        console.log(error);
+      }
+    });
+  }
 
 $( document ).ajaxComplete(function() {
     $('#cookie').on('click', () => {
       $('#divCookie').hide();
   })
 });
-
-
-$( document ).ajaxComplete(function() {
-  $('.btn , .btn-default').on('click', event => {
-      $(event.currentTarget).toggleClass("btn-success");
-  })
-});
-
-
-/*
-function changeColor(x1){
-  if (document.getElementById(x1).style.backgroundColor === 'rgb(0, 128, 0)'){
-    document.getElementById(x1).style.backgroundColor=  'rgb(255, 255, 255)';
-   }
-  else
-       {
-         document.getElementById(x1).style.backgroundColor='rgb(0, 128, 0)'
-         console.log("Il pulsante è verde");
-     }
-   };
-
-   var x1=document.getElementById('button1');
-   x1.addEventListener("click",function(){
-     changeColor('button1');
-   });
-
-   var x1=document.getElementById('button2');
-   x1.addEventListener("click",function(){
-     changeColor('button2');
-   });
-
-   var x1=document.getElementById('button3');
-   x1.addEventListener("click",function(){
-     changeColor('button3');
-   });
-
-
-   var x1=document.getElementById('button4');
-   x1.addEventListener("click",function(){
-     changeColor('button4');
-   });
-   */
